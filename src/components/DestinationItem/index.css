@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.destinations-item {
+  list-style-type: none;
+  width: 235px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 33px;
+}
+
+.destination-image {
+  width: 235px;
+  height: 175px;
+  border-radius: 10px;
+}
+
+.destination-name {
+  font-size: 18px;
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-name {
+    font-size: 25px;
+  }
+}

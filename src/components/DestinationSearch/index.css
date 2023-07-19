@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.destination-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-search-container {
+    align-items: flex-start;
+  }
+}
+
+.title {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Roboto';
+  margin-top: 48px;
+  margin-left: 15px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 45px;
+    margin-top: 50px;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 15px;
+}
+
+.search-input {
+  color: #252627;
+  font-family: 'open sans';
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  color: #0f172a;
+  font-weight: 500;
+  height: 20px;
+  width: 20px;
+}
+
+.destination-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  destination-list {
+    justify-content: start;
+  }
+}
